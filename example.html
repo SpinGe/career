@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/stylecourses.css" type="text/css">
+	<link rel="stylesheet" href="css/styleglide.css" type="text/css">
+	<link rel="stylesheet" href="css/animate.min.css" type="text/css">
+	<title>Main Academy - Основы программирования</title>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<link rel="shortcut icon" href="images/BA_new_icon_page.png">
+	<!-- Core CSS file -->
+	<link rel="stylesheet" href="css/photoswipe.css">
+	<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+		 In the folder of skin CSS file there are also:
+		 - .png and .svg icons sprite, 
+		 - preloader.gif (for browsers that do not support CSS animations) -->
+	<link rel="stylesheet" href="css/default-skin/default-skin.css">
+
+	<!-- Core JS file -->
+	<script src="js/photoswipe.min.js"></script>
+
+	<!-- UI JS file -->
+	<script src="js/photoswipe-ui-default.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="70">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand page-scroll" href="http://mainacad.com"><img src="/wp-content/themes/beep/images/MA_dark_logo_hor.png" alt="Main Academy"></a>
+			</div>
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="/portfolio/kursy">Курсы <b class="caret"></b></a>
+						<ul role="menu" class="dropdown-menu">
+							<li class="dropdown dropdown-submenu">
+								<a data-toggle="dropdown" class="dropdown-toggle" href="#">Выбор специальности <b class="caret caretDeg"></b></a>
+								<ul role="menu" class="dropdown-menu">
+									<li><a href="/portfolio/8849/">Тестировщик</a></li>
+									<li><a href="/junior-developer-csharp/">Программист C#</a></li>
+									<li><a href="/junior-java-developer/">Программист Java</a></li>
+									<li><a href="/junior-frontend-developer/">Программист Frontend</a></li>
+								</ul>
+							</li>
+							<li><a href="/portfolio/kursy/">Старт карьеры</a></li>
+							<li><a href="/portfolio/kursy/#pro">Профессиональное развитие</a></li>
+							<li><a href="/portfolio/kursy/#ite">Английский для программистов</a></li>
+							<li><a href="/sertifikacija/">Сертификация специалистов</a></li>
+							<li><a href="/raspisanie-kursov/">Расписание</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#">Карьера <b class="caret"></b></a>
+						<ul role="menu" class="dropdown-menu">
+							<li><a href="/karera/vakansii/">Найти работу</a></li>
+							<li><a href="/karera/najti-specialista/">Найти специалиста</a></li>
+							<li><a href="/partneram/stat-instruktorom/">Стать инструктором</a></li>
+							<li class="dropdown dropdown-submenu">
+								<a data-toggle="dropdown" class="dropdown-toggle" href="#">Партнеры <b class="caret caretDeg"></b></a>
+								<ul role="menu" class="dropdown-menu">
+									<li><a href="/katalog-kompanij/?action=viewlistings">IT Компании</a></li>
+									<li><a href="/portfolio/universities/">ВУЗЫ</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="/o-main-academy/itdiscovery/">IT Discovery</a></li>
+					<li><a href="/main-school">Main School</a></li>
+					<li><a href="/o-main-academy/novosti/">Новости</a></li>
+					<li><a href="/contact-us">Контакты</a></li>
+					<li>
+						<a href="/ua/osnovy_programm"><img style="padding: 4px;" src="/wp-content/plugins/qtranslate-x/flags/ua.png" alt="Українська"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section id="heroHeader">
+		<div class="imageHeroHeader">
+			<div class="contentHeader">
+				<p class="headerText">Курс «Основы программирования»</p>
+				<p class="headerText">Начни рубить в IT</p>
+				<a href="#bx24_form_button" class="hvr-bounce-to-bottom b24-web-form-popup-btn-72">
+					<p class="caption">Начать басплатно</p>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section id="shortReiew">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-3 col-lg-3">
+					<div class="contentStyle">
+						<i id="pulse" class="fa fa-clock-o fa-5x animate-this"></i>
+						<p>Длительность</p>
+						<hr>
+						<p class="sub">3 недели</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-lg-3">
+					<div class="contentStyle">
+						<i id="shake" class="fa fa-hourglass-start fa-5x animate-this"></i>
+						<p>Количество часов</p>
+						<hr>
+						<p class="sub">24 часа</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-lg-3">
+					<div class="contentStyle">
+						<i id="tada" class="fa fa-calendar fa-5x animate-this"></i>
+						<p>Дата старта</p>
+						<hr>
+						<p class="sub">каждую неделю</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-lg-3">
+					<div class="contentStyle">
+						<i id="rubberBand" class="fa fa-money fa-5x animate-this"></i>
+						<p>Цена</p>
+						<hr>
+						<p class="sub">бесплатно*</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="forWho">
+		<div class="section-intro">
+			<h2>Для кого этот курс</h2>
+			<div class="hr"></div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-lg-4">
+					<i class="fa fa-graduation-cap"></i>
+					<h3>Учусь (не технарь)</h3>
+					<div class="clearfix"></div>
+					<p>Колеблешься, ту ли специальность выбрал? Уверен в правильности выбора, но хочешь усилить свои позиции техническими знаниями?
+						<br>Предлагаем старт в программировании – с нуля, без отрыва от занятий, без лишней траты времени, без ненужной академичности.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-lg-4">
+					<i class="fa fa-briefcase"></i>
+					<h3>Хочу сменить профессию</h3>
+					<div class="clearfix"></div>
+					<p>Видишь себя в IT, но пока не хватает базовых технических знаний? Мы поможем заполнить пробелы и приступить к обучению конкретным IT-специальностям.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-lg-4">
+					<i class="fa fa-globe"></i>
+					<h3>Интересуюсь программированием</h3>
+					<div class="clearfix"></div>
+					<p>На курсе «Основы программирования» прокачаешь свои компьютерные навыки, научишься использовать возможности современных технологий и сможешь удивлять знакомых познаниями в IT.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="benefitsOfCourse">
+		<div class="section-intro">
+			<h2>Что получишь от курса</h2>
+		</div>
+		<div class="container">
+			<div class="benefitsContent">
+				<h4 id="fadeInLeft" class="animate-this"><i class="fa fa-fire" aria-hidden="true"></i> Сможешь написать свою первую программу</h4>
+				<h4 id="fadeInLeft" class="animate-this"><i class="fa fa-fire" aria-hidden="true"></i> Перестанешь пугаться бесконечных циклов</h4>
+				<h4 id="fadeInLeft" class="animate-this"><i class="fa fa-fire" aria-hidden="true"></i> Узнаешь, кто такой инкремент и почему его так любят давать на собеседованиях</h4>
+				<h4 id="fadeInLeft" class="animate-this"><i class="fa fa-fire" aria-hidden="true"></i> Будешь уверенно отличать цикл от условного перехода</h4>
+				<h4 id="fadeInLeft" class="animate-this"><i class="fa fa-fire" aria-hidden="true"></i> Глядя на код одногруппника, сможешь найти ошибку</h4>
+				<h4 id="fadeInLeft" class="animate-this"><i class="fa fa-fire" aria-hidden="true"></i> Узнаешь, что функции есть не только в математике и как с ними написать 50% кода</h4>
+				<h4 id="fadeInLeft" class="animate-this"><i class="fa fa-fire" aria-hidden="true"></i> Опишешь человека в парадигме ООП (объектно-ориентированного программирования)</h4>
+				<h4 id="fadeInLeft" class="animate-this"><i class="fa fa-fire" aria-hidden="true"></i> Определишься с дальнейшим направлением развития</h4>
+			</div>
+		</div>
+	</section>
+	<section id="modulesAccordion">
+		<div class="section-intro">
+			<h2>Чему мы научим</h2>
+			<div class="hr"></div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-lg-6">
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-default panel-custom">
+							<div class="panel-header">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="module">1</p>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-lg-8">
+										<h4>Основные понятия программирования</h4>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="hour">1</p>
+										<p>час</p>
+									</div>
+								</a>
+							</div>
+							<div id="collapse1" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>1.1 Компьютер как исполнитель программ</p>
+									<p>1.2 Суть программирования. Алгоритм</p>
+									<p>1.3 Программа и программное обеспечение</p>
+									<p>1.4 Языки программирования</p>
+									<p>1.5 Составляющие языка программирования</p>
+									<p>1.6 Способы реализации языка программирования (исходный код, исполняемый код, компиляция / интерпретация)</p>
+									<p>1.7 Отладка программ, кодирование (программирование)</p>
+									<p>1.8 Среда программирования</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default panel-custom">
+							<div class="panel-header">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="module">2</p>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-lg-8">
+										<h4>Введение в JavaScript</h4>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="hour">2</p>
+										<p>часа</p>
+									</div>
+								</a>
+							</div>
+							<div id="collapse2" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>2.1 Что такое JavaScript</p>
+									<p>2.2 Справочники и спецификации</p>
+									<p>2.3 Редакторы для кода</p>
+									<p>2.4 Консоль разработчика — практика</p>
+									<p>2.5 JavaScript и структура HTML</p>
+									<p>2.6 Основы разметки кода</p>
+									<p>2.7 Классика «Привет, Мир»</p>
+									<p>2.8 Правила разметки кода для больших скриптов</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default panel-custom">
+							<div class="panel-header">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="module">3</p>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-lg-8">
+										<h4>Разметка кода: переменные и константы</h4>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="hour">2</p>
+										<p>часа</p>
+									</div>
+								</a>
+							</div>
+							<div id="collapse3" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>3.1 Структура кода, точка с запятой, комментарии</p>
+									<p>3.2 Переменные</p>
+									<p>3.3 Имена переменных</p>
+									<p>3.4 Константы</p>
+									<p>3.5 Читаемый код: называем переменный правильно</p>
+									<p>3.6 Практические задачи для усвоения работы с переменными</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default panel-custom">
+							<div class="panel-header">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="module">4</p>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-lg-8">
+										<h4>Типы данных и операторы</h4>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="hour">2</p>
+										<p>часа</p>
+									</div>
+								</a>
+							</div>
+							<div id="collapse4" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>4.1 Пять примитивных типов данных</p>
+									<p>4.2 Основные операторы.</p>
+									<p>4.3 Практика по основным операторам</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default panel-custom">
+							<div class="panel-header">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="module">5</p>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-lg-8">
+										<h4>Операторы сравнения и логические значения</h4>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="hour">2</p>
+										<p>часа</p>
+									</div>
+								</a>
+							</div>
+							<div id="collapse5" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>5.1 Логические значения</p>
+									<p>5.2 Сравнение символов и строк</p>
+									<p>5.3 Сравнение разных типов</p>
+									<p>5.4 Строгое равенство</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-6">
+					<div class="panel-group" id="accordion1">
+						<div class="panel panel-default panel-custom">
+							<div class="panel-header">
+								<a data-toggle="collapse" data-parent="#accordion1" href="#collapse6">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="module">6</p>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-lg-8">
+										<h4>Взаимодействие с пользователем и операторы условия</h4>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="hour">3</p>
+										<p>часа</p>
+									</div>
+								</a>
+							</div>
+							<div id="collapse6" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>6.1 Alert, prompt и confirm</p>
+									<p>6.2 Практика Alert, prompt и confirm</p>
+									<p>6.3 Операторы условия. Оператор if</p>
+									<p>6.4 Операторы условия. Неверное условие, else</p>
+									<p>6.5 Практика на усвоение else и if</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default panel-custom">
+							<div class="panel-header">
+								<a data-toggle="collapse" data-parent="#accordion1" href="#collapse7">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="module">7</p>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-lg-8">
+										<h4>Логические операторы</h4>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="hour">3</p>
+										<p>часа</p>
+									</div>
+								</a>
+							</div>
+							<div id="collapse7" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>7.1. || (ИЛИ)</p>
+									<p>7.2. && (И)</p>
+									<p>7.3 Практика на логические операторы</p>
+									<p>7.4 Конструкция switch и case</p>
+									<p>7.5 Практика для конструкции switch и case</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default panel-custom">
+							<div class="panel-header">
+								<a data-toggle="collapse" data-parent="#accordion1" href="#collapse8">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="module">8</p>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-lg-8">
+										<h4>Циклы while и for</h4>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="hour">3</p>
+										<p>часа</p>
+									</div>
+								</a>
+							</div>
+							<div id="collapse8" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>8.1 Цикл while</p>
+									<p>8.2 Цикл do..while</p>
+									<p>8.3 Цикл for</p>
+									<p>8.4 Практика для while и for</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default panel-custom">
+							<div class="panel-header">
+								<a data-toggle="collapse" data-parent="#accordion1" href="#collapse9">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="module">9</p>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-lg-8">
+										<h4>Функциональное программирование</h4>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="hour">3</p>
+										<p>часа</p>
+									</div>
+								</a>
+							</div>
+							<div id="collapse9" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>9.1 Объявление функции</p>
+									<p>9.2 Локальные и внешние переменные</p>
+									<p>9.3 Параметры</p>
+									<p>9.4 Возврат значения функциями</p>
+									<p>9.5 Практика для работы с функциями</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default panel-custom">
+							<div class="panel-header">
+								<a data-toggle="collapse" data-parent="#accordion1" href="#collapse10">
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="module">10</p>
+									</div>
+									<div class="col-xs-8 col-sm-8 col-lg-8">
+										<h4>Основы ООП: Объекты, структуры данных, свойства и методы</h4>
+									</div>
+									<div class="col-xs-2 col-sm-2 col-lg-2">
+										<p class="hour">3</p>
+										<p>часа</p>
+									</div>
+								</a>
+							</div>
+							<div id="collapse10" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>10.1 Введение в методы и свойства</p>
+									<p>10.2 Числа</p>
+									<p>10.3 Практика для работы с числами</p>
+									<p>10.4 Строки</p>
+									<p>10.5 Практика для работы со строками</p>
+									<p>10.6 Массивы</p>
+									<p>10.7 Практика для работы с массивами</p>
+									<p>10.8 Создание объекта</p>
+									<p>10.9 Добавление свойств</p>
+									<p>10.10 Доступ к свойствам</p>
+									<p>10.11 Удаление свойств</p>
+									<p>10.12 Добавление метода</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="yourSpeciality">
+		<div class="section-intro">
+			<h2>На каких специальностях сможешь учиться после
+                    <br>«Основ программирования»</h2>
+		</div>
+		<div class="futureCourses">
+			<div class="coursesLeft">
+				<a href="/portfolio/junior-frontend-developer/">
+					<div id="fadeInLeft" class="title animate-this">
+						<h4>FrontEnd Developer</h4>
+					</div>
+				</a>
+				<a href="/portfolio/junior-tester/">
+					<div id="fadeInLeft" class="title animate-this">
+						<h4>QA Developer</h4>
+					</div>
+				</a>
+				<a href="/portfolio/php/">
+					<div id="fadeInLeft" class="title animate-this">
+						<h4>PHP Developer</h4>
+					</div>
+				</a>
+			</div>
+			<div class="coursesRight">
+				<a href="/portfolio/junior-java-developer/">
+					<div id="fadeInRight" class="title animate-this">
+						<h4>Java Developer</h4>
+					</div>
+				</a>
+				<a href="/portfolio/junior-developer-csharp/">
+					<div id="fadeInRight" class="title animate-this">
+						<h4>C# Developer</h4>
+					</div>
+				</a>
+				<a href="/portfolio/python/">
+					<div id="fadeInRight" class="title animate-this">
+						<h4>Python Developer</h4>
+					</div>
+				</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="button animate-this" id="fadeIn">
+			<a href="#b24-web-form-popup-btn-72" class="btn btn-1 b24-web-form-popup-btn-72">
+				<svg>
+					<rect x="0" y="0" fill="none" width="100%" height="100%" />
+				</svg>Записаться
+			</a>
+		</div>
+	</section>
+	<section id="reviews">
+		<div class="section-intro">
+			<h2>Отзывы</h2>
+			<div class="hr"></div>
+		</div>
+		<div class="section__row">
+			<div class="section__part">
+				<div id="Glide" class="slider glide glide--slider glide--horizontal">
+					<div class="slider__arrows glide__arrows">
+						<button class="slider__arrow glide__arrow next disabled" data-glide-dir="&gt;">next</button>
+						<button class="slider__arrow glide__arrow prev" data-glide-dir="&lt;">prev</button>
+					</div>
+					<div class="slider__wrapper glide__wrapper is-visible">
+						<ul class="slider__track glide__track" style="width: 9878px; transition: all 500ms cubic-bezier(0.165, 0.84, 0.44, 1); transform: translate3d(-2364px, 0px, 0px);">
+
+							<li class="slider__slide glide__slide slideWidth">
+								<div class="slideContent">
+									<div class="row">
+										<div class="col-xs-12 col-sm-4 col-lg-4">
+											<img src="/wp-content/themes/beep/images/Batrak.png" class="img-circle img-responsive">
+										</div>
+										<div class="col-xs-12 col-sm-8 col-lg-8">
+											<div class="contentShort">
+												<h3>Влад Батрак</h3>
+												<hr>
+												<p>студент Front End</p>
+												<p class="reviewText">Хороший курс, который дает общие сведения о программировании и поможет определиться с дальнейшим направлением в сфере IT.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="slider__slide glide__slide slideWidth">
+								<div class="slideContent">
+									<div class="row">
+										<div class="col-xs-12 col-sm-4 col-lg-4">
+											<img src="/wp-content/themes/beep/images/linn.png" class="img-circle img-responsive">
+										</div>
+										<div class="col-xs-12 col-sm-8 col-lg-8">
+											<div class="contentShort">
+												<h3>Линиченко Мар'яна</h3>
+												<hr>
+												<p>студентка Front End</p>
+												<p class="reviewText">Я считаю, что курс был достаточно интересным. Преподаватель давал информацию легко. Хотелось бы еще больше практических заданий.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="slider__slide glide__slide slideWidth">
+								<div class="slideContent">
+									<div class="row">
+										<div class="col-xs-12 col-sm-4 col-lg-4">
+											<img src="/wp-content/themes/beep/images/zabolot.png" class="img-circle img-responsive">
+										</div>
+										<div class="col-xs-12 col-sm-8 col-lg-8">
+											<div class="contentShort">
+												<h3>Ірина Заболотна</h3>
+												<hr>
+												<p>студентка Front End</p>
+												<p class="reviewText">Прошла курс ОП у Вячеслава, сама программа очень понравилось, все лаконично и по существу. После окончания базового курса стало ясно, куда двигаться дальше.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="slider__slide glide__slide slideWidth">
+								<div class="slideContent">
+									<div class="row">
+										<div class="col-xs-12 col-sm-4 col-lg-4">
+											<img src="/wp-content/themes/beep/images/vovk.png" class="img-circle img-responsive">
+										</div>
+										<div class="col-xs-12 col-sm-8 col-lg-8">
+											<div class="contentShort">
+												<h3>Сергій Вовк</h3>
+												<hr>
+												<p>студент Front End</p>
+												<p class="reviewText">Замечательная школа. Отличные преподаватели, знающие свое дело на практике, а не в теории.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="slider__slide glide__slide slideWidth">
+								<div class="slideContent">
+									<div class="row">
+										<div class="col-xs-12 col-sm-4 col-lg-4">
+											<img src="/wp-content/themes/beep/images/Dudar.png" class="img-circle img-responsive">
+										</div>
+										<div class="col-xs-12 col-sm-8 col-lg-8">
+											<div class="contentShort">
+												<h3>Володимир Дудар</h3>
+												<hr>
+												<p>Front End</p>
+												<p class="reviewText">Больше, чем я ожидал, все доступно и структурировано. Тренер Вячеслав – мастер своего дела не только в области программирования, но и как преподаватель. Рекомендую курс всем, кто хочет познакомиться с ОП.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="slider__slide glide__slide slideWidth">
+								<div class="slideContent">
+									<div class="row">
+										<div class="col-xs-12 col-sm-4 col-lg-4">
+											<img src="/wp-content/themes/beep/images/maluga.png" class="img-circle img-responsive">
+										</div>
+										<div class="col-xs-12 col-sm-8 col-lg-8">
+											<div class="contentShort">
+												<h3>Сергій Малюга</h3>
+												<hr>
+												<p>Front End</p>
+												<p class="reviewText">Такая интенсивность – урок 3 часа и 10-минутный перерыв мне очень понравилась. Как раз под конец занятия начинаю уставать. Можно сказать, золотая середина, не много и не мало. По опыту на других курсах – 2 часа реально мало, только разогрелся – пора уходить. Спасибо большое тренеру!</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="slider__slide glide__slide slideWidth">
+								<div class="slideContent">
+									<div class="row">
+										<div class="col-xs-12 col-sm-4 col-lg-4">
+											<img src="/wp-content/themes/beep/images/holod.png" class="img-circle img-responsive">
+										</div>
+										<div class="col-xs-12 col-sm-8 col-lg-8">
+											<div class="contentShort">
+												<h3>Анастасія Холод</h3>
+												<hr>
+												<p>Front End</p>
+												<p class="reviewText">Хорошее разъяснение и подача, курс не примитивный, но мне оказался по силам.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="slider__slide glide__slide slideWidth">
+								<div class="slideContent">
+									<div class="row">
+										<div class="col-xs-12 col-sm-4 col-lg-4">
+											<img src="/wp-content/themes/beep/images/Goroh.png" class="img-circle img-responsive">
+										</div>
+										<div class="col-xs-12 col-sm-8 col-lg-8">
+											<div class="contentShort">
+												<h3>Ангелина Гороховская</h3>
+												<hr>
+												<p>студентка курса "Тестирование ПО"</p>
+												<p class="reviewText">Main Academy — это не просто курсы, а место, где студент может ощутить атмосферу IT-компаний, ведь ваш преподаватель — это опытный специалист. Каждое занятие было действительно полезным и продуктивным. Огромное спасибо за багаж знаний и чудесную атмосферу!</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="studyModel">
+		<div class="section-intro">
+			<h2>Наша учебная модель</h2>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-lg-4">
+					<div class="columnContent">
+						<h4>Сертификация и требования рынка</h4>
+						<hr align="left" width="50%">
+						<p>Мы использовали Европейскую рамку компетенций для IT-профессионалов (e-CF), сертификационные требования от Oracle и Microsoft. Каждая программа разработана экспертами отрасли под заказ Main Academy и утверждена в ведущих IT-компаниях Украины</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-lg-4">
+					<div class="columnContent">
+						<h4>Обширный практикум</h4>
+						<hr align="left" width="50%">
+						<p>Наша цель – дать максимум знаний и навыков для успешной работы. Поэтому студенты выполняют множество лабораторных индивидуально и в команде, разрабатывают реальный проект, который станет первым в портфолио</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-lg-4">
+					<div class="columnContent">
+						<h4>Offline & Online</h4>
+						<hr align="left" width="50%">
+						<p>Основа обучения – занятия с инструктором в аудитории. Только такой формат гарантирует результат. При этом постоянно открыт онлайн-доступ к разработанным нами учебным материалам, заданиям, тестам</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-lg-4">
+					<div class="columnContent">
+						<h4>Отбор и подготовка инструкторов</h4>
+						<hr align="left" width="50%">
+						<p>Практикующие профессионалы сдают вступительный экзамен, обучаются по нашим программам подготовки инструкторов и проходят финальную сертификацию</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-lg-4">
+					<div class="columnContent">
+						<h4>Карьерный сервис</h4>
+						<hr align="left" width="50%">
+						<p>Учим проходить собеседования, быть конкурентными на рынке и презентовать свои преимущества в резюме. Компании-партнеры запрашивают информацию о наших студентах и отбирают нужных специалистов</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-lg-4">
+					<div class="columnContent">
+						<h4>Единый стандарт качества для всех филиалов</h4>
+						<hr align="left" width="50%">
+						<p>Main Academy учит студентов во всех регионах Украины. Благодаря единым методикам, программам, сертификации инструкторов студенты в каждом филиале получают гарантированное качество обучения</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="gallery">
+		<div class="section-intro">
+			<h2>Галерея</h2>
+			<div class="hr"></div>
+		</div>
+		<div class="gallery-content">
+			<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+				<figure class="col-lg-3 col-sm-6 col-xs-12" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="/wp-content/themes/beep/images/gallery/41-min.jpg" itemprop="contentUrl" data-size="6000x4000">
+						<img src="/wp-content/themes/beep/images/gallery/thumb/41.jpg" itemprop="thumbnail" alt="41" style="" />
+					</a>
+					<figcaption itemprop="caption description"></figcaption>
+				</figure>
+				<figure class="col-lg-3 col-sm-6 col-xs-12" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="/wp-content/themes/beep/images/gallery/51-min.jpg" itemprop="contentUrl" data-size="6000x4000">
+						<img src="/wp-content/themes/beep/images/gallery/thumb/51.jpg" itemprop="thumbnail" alt="51" style="" />
+					</a>
+					<figcaption itemprop="caption description"></figcaption>
+				</figure>
+				<figure class="col-lg-3 col-sm-6 col-xs-12" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="/wp-content/themes/beep/images/gallery/53-min.jpg" itemprop="contentUrl" data-size="6000x4000">
+						<img src="/wp-content/themes/beep/images/gallery/thumb/53.jpg" itemprop="thumbnail" alt="53" style="" />
+					</a>
+					<figcaption itemprop="caption description"></figcaption>
+				</figure>
+				<figure class="col-lg-3 col-sm-6 col-xs-12" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="/wp-content/themes/beep/images/gallery/63-min.jpg" itemprop="contentUrl" data-size="6000x4000">
+						<img src="/wp-content/themes/beep/images/gallery/thumb/63.jpg" itemprop="thumbnail" alt="63" style="" />
+					</a>
+					<figcaption itemprop="caption description"></figcaption>
+				</figure>
+				<figure class="col-lg-3 col-sm-6 col-xs-12" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="/wp-content/themes/beep/images/gallery/107_2-min.jpg" itemprop="contentUrl" data-size="5670x3783">
+						<img src="/wp-content/themes/beep/images/gallery/thumb/107_2.jpg" itemprop="thumbnail" alt="107_2" />
+					</a>
+					<figcaption itemprop="caption description"></figcaption>
+				</figure>
+				<figure class="col-lg-3 col-sm-6 col-xs-12" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="/wp-content/themes/beep/images/gallery/135-min.jpg" itemprop="contentUrl" data-size="6000x4000">
+						<img src="/wp-content/themes/beep/images/gallery/thumb/135.jpg" itemprop="thumbnail" alt="135" style="" />
+					</a>
+					<figcaption itemprop="caption description"></figcaption>
+				</figure>
+				<figure class="col-lg-3 col-sm-6 col-xs-12" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="/wp-content/themes/beep/images/gallery/458-min.jpg" itemprop="contentUrl" data-size="6000x4000">
+						<img src="/wp-content/themes/beep/images/gallery/thumb/458.jpg" itemprop="thumbnail" alt="458" style="" />
+					</a>
+					<figcaption itemprop="caption description"></figcaption>
+				</figure>
+				<figure class="col-lg-3 col-sm-6 col-xs-12" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="/wp-content/themes/beep/images/gallery/513_2-min.jpg" itemprop="contentUrl" data-size="6000x4000">
+						<img src="/wp-content/themes/beep/images/gallery/thumb/513_2.jpg" itemprop="thumbnail" alt="513" style="" />
+					</a>
+					<figcaption itemprop="caption description"></figcaption>
+				</figure>
+			</div>
+			<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="pswp__bg"></div>
+				<div class="pswp__scroll-wrap">
+					<div class="pswp__container">
+						<div class="pswp__item"></div>
+						<div class="pswp__item"></div>
+						<div class="pswp__item"></div>
+					</div>
+					<div class="pswp__ui pswp__ui--hidden">
+						<div class="pswp__top-bar">
+							<div class="pswp__counter"></div>
+							<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+							<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+							<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+							<div class="pswp__preloader">
+								<div class="pswp__preloader__icn">
+									<div class="pswp__preloader__cut">
+										<div class="pswp__preloader__donut"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+							<div class="pswp__share-tooltip"></div>
+						</div>
+						<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+						</button>
+						<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+						</button>
+						<div class="pswp__caption">
+							<div class="pswp__caption__center"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="pricing">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-lg-6">
+					<div class="contentPrice">
+						<h2>Старт курса каждую неделю</h2>
+						<hr align="left" width="70%">
+						<h4>Старт курса каждую неделю!</h4>
+						<h4><i class="fa fa-clock-o" aria-hidden="true"></i> пн, ср, пт - 18:30-21:30</h4>
+						<h4><i class="fa fa-clock-o" aria-hidden="true"></i> вт, чт - 18:30-21:30</h4>
+						<h4><i class="fa fa-clock-o" aria-hidden="true"></i> сб, вс - 10:00-14:00</h4>
+						<p>После регистрации с вами свяжется наш менеджер и уточнит все детали</p>
+						<p style="text-align: left;">*- условия акции узнавайте у менеджера</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-6">
+					<div class="contentForm">
+						<h2>Записаться на курс<br>«Основы программирования»</h2>
+						<a href="#b24-web-form-popup-btn-72" class="hvr-bounce-in b24-web-form-popup-btn-72">
+							<p>Записаться</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="advertisement">
+		<div class="arrows">
+			<div class="yourFuture">
+				<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+				<p>Учим
+					<br>с нуля</p>
+			</div>
+			<div class="triangle-right">
+			</div>
+			<div class="clearfix"></div>
+			<div class="yourFuture">
+				<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+				<p>Развиваем
+					<br>профессионалов</p>
+			</div>
+			<div class="triangle-right">
+			</div>
+			<div class="clearfix"></div>
+			<div class="yourFuture">
+				<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+				<p>Готовим
+					<br>к карьере в IT</p>
+			</div>
+			<div class="triangle-right">
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="circleOuter">
+			<div class="circleInner">
+				<h3><a href="http://mainacad.com/"><img src="/wp-content/themes/beep/images/MA_light_logo_ver.png" class="center-block img-responsive" width="100"></a>Комплексное<br>IT-образование</h3>
+			</div>
+		</div>
+	</section>
+	<section id="footer">
+		<div class="container">
+			<div class="col-lg-3 col-sm-3 col-xs-6">
+				<p>Making your mind brilliant!</p>
+			</div>
+			<div class="col-lg-4 col-sm-4 col-xs-6 floatRight">
+				<p>©2017 Main Academy. Все права защищены</p>
+			</div>
+			<div class="col-lg-5 col-sm-5 col-xs-6">
+				<a href="mailto:info@mainacad.com">
+					<div class="circle"><i class="fa fa-envelope fa-2x"></i></div>
+				</a>
+				<a href="https://www.facebook.com/mainacademyua" target="_blank">
+					<div class="circle"><i class="fa fa-facebook fa-2x"></i></div>
+				</a>
+				<a href="https://vk.com/kievmainacademy" target="_blank">
+					<div class="circle"><i class="fa fa-vk fa-2x"></i></div>
+				</a>
+				<p class="phoneFooter">+38(044) 225 88 77
+					<br>+38(067) 225 88 77</p>
+			</div>
+		</div>
+	</section>
+	<script id="bx24_form_button" data-skip-moving="true">
+			(function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+					(w[b].forms=w[b].forms||[]).push(arguments[0])};
+					if(w[b]['forms']) return;
+					s=d.createElement('script');r=1*new Date();s.async=1;s.src=u+'?'+r;
+					h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+			})(window,document,'https://mainacad.bitrix24.ua/bitrix/js/crm/form_loader.js','b24form');
+			b24form({"id":"72","lang":"ua","sec":"gz11lb","type":"button","click":""});
+	</script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/glide.min.js"></script>
+	<script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
+	<script src="js/photoswipeinit.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
